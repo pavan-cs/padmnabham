@@ -1,0 +1,19 @@
+<?php 
+namespace {{ namespace }};
+
+/**
+ * Interface for Rfi repository
+ */
+interface {{ interfaceName }}
+{
+
+	/**
+	 * Interface for repository
+	 * There should be funciton declearation
+	 */
+	public function index(); 
+	public function store($request);
+	public function update($request, $id);
+	public function destroy($id);
+	    
+}
