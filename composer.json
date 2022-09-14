@@ -2,8 +2,8 @@
     "name": "pavan-cs/padmnabham",
     "type": "library",
     "require": {
-        "illuminate/support": "10.x-dev",
-        "illuminate/console": "10.x-dev"
+        "illuminate/console": "^9.21",
+        "illuminate/support": "^9.21"
     },
     "license": "MIT",
     "autoload": {
